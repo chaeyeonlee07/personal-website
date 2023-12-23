@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@700&family=IBM+Plex+Sans:wght@300&display=swap');
+
+body {
+  padding-top: 0px;
+  background-color: rgb(231, 216, 235);
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: rgba(30, 4, 21, 0.85);
+  font-size: 18px;
+  text-align: center;
+  overflow: hidden; /* Disable scrolling for the entire page */
+}
+
+.container{
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 300px;
+  overflow: hidden; /* Disable scrolling for specific containers */
+  max-width: 60%; /* Adjust as needed */
+}
+.index_container {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 300px;
+  overflow: hidden; /* Disable scrolling for specific containers */
+  max-width: 60%; /* Adjust as needed */
+}
+
+
+.container img {
+  display: flex;  
+  margin: 0 auto;  
+}
+ 
+
+p { 
+  text-align: center;
+}
+ 
+/* Common styles */
+.Button {
+  font-family: 'IBM Plex Sans', sans-serif;
+  border: 0px;
+  font-size: 17px;
+  width: 100px;
+  min-height: 20px;
+  color: rgb(231, 200, 242);
+  padding: 15px 15px;
+  border-radius: 100px;
+  background-color: rgb(231, 216, 235);
+  transition-timing-function: ease-in;
+  transition-duration: 0.3s;
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.ContactButton {
+  /* Additional styles specific to Contact button */
+  margin-right: 10px; /* Adjust this margin to create space between buttons */
+}
+.ButtonContainer {
+  text-align:center;
+  /*the same margin which is every button have, it is for small screen, and if you have many buttons.*/
+  margin-left:60px;
+  margin-right:60px;
+  
+}
+
+.animated-text {
+  animation: slideIn 2s ease-in-out; /* Adjust animation duration and easing */
+}
+
+.wave-text {
+  position: relative;
+  display: inline-block;
+  animation: wave 2s infinite linear;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+}
+
+
+.Button {
+  list-style: none;
+     text-align: center;
+     background-color: rgb(129, 50, 151);
+     width: 150px; margin:0;
+     line-height: 30px;
+     float: left;
+     margin-right: 30px;
+}
+
+.larger-icon {
+  font-size: 30px; /* Change this value to adjust the size of the icon */
+  margin-right: 30px;
+}
+ 
+
+ 
+ 
+
+.link:hover {
+    color: rgb(119, 36, 93);
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/* CSS styles for the drink and hobby buttons */
+#drinkButton,
+#hobbyButton {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/* Change color on hover */
+#drinkButton:hover,
+#hobbyButton:hover {
+    color: rgb(103, 50, 119);
+}
