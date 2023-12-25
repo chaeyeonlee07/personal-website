@@ -115,6 +115,21 @@ body {
   max-width: 60%; /* Adjust as needed */
 }
 
+.image {
+  width: 100%;  
+  height: auto;  
+  max-width: 250px; 
+  max-height: 350px; 
+  margin-bottom: 10px;  
+}
+
+.large-image {
+  width: 100%;  
+  height: auto;  
+  max-width: 550px;  
+  max-height: 300px;  
+  margin-bottom: 10px;  
+}
 
 .container img {
   display: flex;  
