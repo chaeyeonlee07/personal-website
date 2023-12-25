@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Cantarell:wght@700&family=Cute+Font&family=Parisienne&family=IBM+Plex+Sans:wght@300&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Cantarell:wght@700&family=Cute+Font&family=Parisienne&family=IBM+Plex+Sans:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
 body {
   padding-top: 0px;
   background-color: rgb(231, 216, 235);
   font-family: 'IBM Plex Sans', sans-serif;
   color: rgba(30, 4, 21, 0.85);
-  font-size: 18px;
+  font-size: 1rem; /* Use relative units for font size */
   text-align: center;
   /* overflow: hidden; Disable scrolling for the entire page */
 }
+
 .collapsible {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 1.5rem; /* Use relative units for padding */
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 0.9375rem; /* Use relative units for font size */
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -28,10 +30,10 @@ body {
 
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
+  font-size: 0.8125rem; /* Use relative units for font size */
   color: white;
   float: right;
-  margin-left: 5px;
+  margin-left: 0.3125rem; /* Use relative units for margin */
 }
 
 .active:after {
@@ -39,7 +41,7 @@ body {
 }
 
 .content {
-  padding: 0 18px;
+  padding: 0 1.5rem; /* Use relative units for padding */
   background-color: white;
   max-height: 0;
   overflow: hidden;
@@ -57,19 +59,20 @@ body {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 18px;
+  padding: 0 1.5rem; /* Use relative units for padding */
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
 }
 
-.memory-container{
+.memory-container {
   text-align: center;
-  margin-top: 0px;
-  margin-left: 300px;
-  max-width: 60%; /* Adjust as needed */
-  font-family:'Roboto Slab', serif;
+  margin-top: 0;
+  margin-left: 15%; /* Use relative units for margin */
+  max-width: 70%; /* Use relative units for max-width */
+  font-family: 'Roboto Slab', serif;
 }
+
 
 .Collapsible {
   border: 1px solid #401616;
