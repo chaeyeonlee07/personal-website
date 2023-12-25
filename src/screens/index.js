@@ -60,12 +60,12 @@ function Home() {
         Now that you have learnt little about me, I would love to know you as well! I always love meeting new people and talking about many different subjects!
         <br />
         <br />
-        You are always welcomed to reach me out by lcylsy0725 at berkeley dot edu
-        <br /> or press the contact button below!
+        You are always welcomed to reach me out by lcylsy0725 at berkeley dot edu!
       </p>
  
       <div class="ButtonContainer">
   <button class="Button" onClick={() => navigate('/about')}>About</button>
+  <button class="Button" onClick={() => navigate('/memory')}>Memories</button>
 </div>
 
 

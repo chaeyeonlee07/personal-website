@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Index from './screens/index';
 import About from './screens/about';
+import Memory from './screens/memory';
 
 
 import {
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
     path: "/about",
     element: <About />,
     errorElement: <About />,
+  },
+  {
+    path: "/memory",
+    element: <Memory />,
+    errorElement: <Memory />,
   },
 ]);
 

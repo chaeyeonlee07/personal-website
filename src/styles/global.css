@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@700&family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Cantarell:wght@700&family=Cute+Font&family=Parisienne&family=IBM+Plex+Sans:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
 body {
   padding-top: 0px;
@@ -7,8 +7,95 @@ body {
   color: rgba(30, 4, 21, 0.85);
   font-size: 18px;
   text-align: center;
-  overflow: hidden; /* Disable scrolling for the entire page */
+  /* overflow: hidden; Disable scrolling for the entire page */
 }
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.memory-container{
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 300px;
+  max-width: 60%; /* Adjust as needed */
+  font-family:'Roboto Slab', serif;
+}
+
+.Collapsible {
+  border: 1px solid #401616;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #c4978c;
+}
+
+.memory-intro{
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 30px;
+  max-width: 90%; /* Adjust as needed */
+  font-family: 'PT Serif', serif;
+  font-size:15px;
+}
+
+.memory-title{
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 30px;
+  max-width: 90%; /* Adjust as needed */
+  font-family: 'Parisienne';
+}
+
 
 .container{
   text-align: center;

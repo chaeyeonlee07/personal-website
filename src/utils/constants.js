@@ -7,5 +7,9 @@ export const pages = [
       title: 'about',
       path: '/about',
     }
+    {
+      title: 'memory',
+      path: '/memory',
+    }
    
   ]
