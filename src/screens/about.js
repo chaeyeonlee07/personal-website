@@ -14,7 +14,8 @@ function About() {
           </a>{' '}
           ฅ՞•ﻌ•՞ฅ!
         <p>
-          My most recent collaboration has been XYZ with amazing fellows participated in{' '}
+          My most recent collaboration has been ios / android app development of Nature Quest, a scavenger hunt game to close the gap between 
+              human living sphere with the nature, using Flutter at {' '}
           <a href="https://www.impactlabs.io/fellowship" className="link">
             Impact Fellowship
           </a>
