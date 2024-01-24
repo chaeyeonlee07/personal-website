@@ -10,7 +10,7 @@ function Projects() {
     return (
         <body>
             <div className="project-container">
-                <h1>Projects</h1>
+                <h1 className="title">Projects</h1>
                 <p className="project-intro">
                     I love learning new languages and frameworks, and making new inventions that can address problems that I face on a daily-basis.
                     The sense of urgency that I feel to act and respond to my needs, curiosity, and problems are where many of my creations are motivated from.
