@@ -9,6 +9,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Projects from './screens/projects';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,12 @@ const router = createBrowserRouter([
     element: <Memory />,
     errorElement: <Memory />,
   },
+  {
+    path: "/projects",
+    element: <Projects />,
+    errorElement: <Projects />,
+  },
+
 ]);
 
 ReactDOM.render(

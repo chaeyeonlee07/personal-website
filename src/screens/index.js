@@ -28,45 +28,44 @@ function Home() {
     setHobbyIndex((prevIndex) => (prevIndex + 1) % categories.hobbies.length);
   };
 
- 
-  return (
-    <div className="index_container">
-      <h1 class="wave-text">Welcome to my website</h1>
-      <p>
-        Hello! Nice to meet you!! I would love to welcome you to my 𓆝 𓆟 space 𓆝 𓆟 by taking your 
-        order of my ‧₊˚ ⋅specialty drinks𓐐𓎩 ‧₊˚ ⋅ — would you like some{' '}
-        <span id="drinkButton" className="link play" onClick={updateDrink}>
-          {categories.drinks[drinkIndex]}
-        </span>
-        ?
-        <br />
-        <br />
-        Now that you are comfortable at my virtual space, I would love to tell a little about myself! ˶ᵔ ᵕ ᵔ˶ 
-        
-        <br />
-        I currently live in Berkeley𓇢𓆸, where I study Pure Mathematics and Computer Science! 
-        I take immense joy in crafting things that reflect my unique taste and passion `♡´. 
-        <br />
 
-        <br />
-      
-        When I am free, I love {' '}
-        <span id="hobbyButton" className="link play" onClick={updateHobby}>
-          {categories.hobbies[hobbyIndex]}
-        </span>
-        . These hobbies are my sources of vitality🌿, creativity🌟, and wellness🕊 — I endeavor to nurture them, even amidst bustling schedules, to sustain my happiness.
-        <br />
-        <br />
-        Now that you have learnt little about me, I would love to know you as well! I always love meeting new people and talking about many different subjects!
-        <br />
-        <br />
-        You are always welcomed to reach me out by lcylsy0725 at berkeley dot edu!
-      </p>
- 
-      <div class="ButtonContainer">
-  <button class="Button" onClick={() => navigate('/about')}>About</button>
-  <button class="Button" onClick={() => navigate('/memory')}>Memories</button>
-</div>
+  return (
+    <body>
+      <div className="index_container">
+        <h1 class="wave-text">Welcome to my website</h1>
+        <p>
+          Hello! Nice to meet you!! I would love to welcome you to my 𓆝 𓆟 space 𓆝 𓆟 by taking your
+          order of my ‧₊˚ ⋅specialty drinks𓐐𓎩 ‧₊˚ ⋅ — would you like some{' '}
+          <span id="drinkButton" className="link play" onClick={updateDrink}>
+            {categories.drinks[drinkIndex]}
+          </span>
+          ?
+          <br />
+
+          I currently live in Berkeley𓇢𓆸, where I study Pure Mathematics and Computer Science!
+          I take immense joy in crafting things that reflect my unique taste and passion `♡´.
+          <br />
+
+          <br />
+
+          When I am free, I love {' '}
+          <span id="hobbyButton" className="link play" onClick={updateHobby}>
+            {categories.hobbies[hobbyIndex]}
+          </span>
+          . These hobbies are my sources of vitality🌿, creativity🌟, and wellness🕊 — I endeavor to nurture them, even amidst bustling schedules, to sustain my happiness.
+          <br />
+          <br />
+          Now that you have learnt little about me, I would love to know you as well! I always love meeting new people and talking about many different subjects!
+          <br />
+          <br />
+          You are always welcomed to reach me out by lcylsy0725 at berkeley dot edu!
+        </p>
+
+        <div class="ButtonContainer">
+          <button class="Button" onClick={() => navigate('/about')}>About</button>
+          <button class="Button" onClick={() => navigate('/memory')}>Memories</button>
+          <button class="Button" onClick={() => navigate('/projects')}>Projects</button>
+        </div>
 
 
         <a href="https://www.linkedin.com/in/chae-yeon-lee-299b87143/" target="_blank" rel="noreferrer">
@@ -76,7 +75,8 @@ function Home() {
           <AiFillGithub class="clear-left inline icon-link larger-icon" alt="github" />
         </a>
 
-    </div>
+      </div>
+    </body>
   );
 }
 
