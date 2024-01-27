@@ -17,8 +17,14 @@ function About() {
             UC Berkeley
           </a>{' '}
           ฅ՞•ﻌ•՞ฅ!
+<<<<<<< HEAD
 
           My most recent collaboration has been developing a nature scavenger hunt game app using flutter with a friend I met at {' '}
+=======
+        <p>
+          My most recent collaboration has been ios / android app development of Nature Quest, a scavenger hunt game to close the gap between 
+              human living sphere with the nature, using Flutter at {' '}
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
           <a href="https://www.impactlabs.io/fellowship" className="link">
             Impact Fellowship
           </a>
@@ -39,9 +45,18 @@ function About() {
           <button className='Button AboutButton' onClick={() => { navigate("/index") }}>Home</button>
         </div>
       </div>
+<<<<<<< HEAD
 
     </body>
   );
 }
 
 export default About;
+=======
+      </div>
+    );
+  }
+  
+  export default About;
+  
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346

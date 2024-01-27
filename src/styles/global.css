@@ -9,6 +9,7 @@ body {
   background-color: rgb(231, 216, 235);
   font-family: 'IBM Plex Sans', sans-serif;
   color: rgba(30, 4, 21, 0.85);
+<<<<<<< HEAD
   font-size: 20px;
   text-align: center;
 }
@@ -30,12 +31,50 @@ body {
 
 .content {
   padding: 0 1.5rem;
+=======
+  font-size: 1rem; 
+  text-align: center;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 1.5rem; 
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 0.9375rem; 
+}
+
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.collapsible:after {
+  content: '\02795';  
+  font-size: 0.8125rem;  
+  color: white;
+  float: right;
+  margin-left: 0.3125rem; 
+}
+
+.active:after {
+  content: "\2796"; 
+}
+
+.content {
+  padding: 0 1.5rem;  
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
   background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
+<<<<<<< HEAD
 a {
   margin-top: 10px;
 }
@@ -66,6 +105,20 @@ a:active {
 
 .content {
   padding: 0 1.5rem;
+=======
+.active:after {
+  content: "\2796"; 
+}
+
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+
+.content {
+  padding: 0 1.5rem; 
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
@@ -74,8 +127,13 @@ a:active {
 .memory-container {
   text-align: center;
   margin-top: 0;
+<<<<<<< HEAD
   align-items: center;
   max-width: 70%;
+=======
+  margin-left: 15%; 
+  max-width: 70%; 
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
   font-family: 'Roboto Slab', serif;
 
 }
@@ -104,6 +162,7 @@ li::before {
   padding-top: 10px;
 }
 
+<<<<<<< HEAD
 .project-inner-box {
   display: flex;
   align-items: center;
@@ -118,11 +177,26 @@ li::before {
 
 
 .memory-intro {
+=======
+.memory-intro{
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 30px;
+  max-width: 90%; 
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
   font-family: 'PT Serif', serif;
   font-size: 15px;
 }
 
+<<<<<<< HEAD
 .memory-title {
+=======
+.memory-title{
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 30px;
+  max-width: 90%; 
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
   font-family: 'Parisienne';
 }
 
@@ -134,8 +208,14 @@ li::before {
 .container {
   text-align: center;
   margin-top: 0px;
+<<<<<<< HEAD
   overflow: hidden;
   max-width: 70%;
+=======
+  margin-left: 300px;
+  overflow: hidden; 
+  max-width: 60%; 
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
 }
 
 .aboutme {
@@ -148,8 +228,14 @@ li::before {
 .index_container {
   text-align: center;
   margin-top: 100px;
+<<<<<<< HEAD
   overflow: hidden;
   max-width: 70%;
+=======
+  margin-left: 300px;
+  overflow: hidden; 
+  max-width: 60%; 
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
 }
 
 .profile-container {
@@ -223,8 +309,11 @@ p {
 }
 
 
+<<<<<<< HEAD
 
 /* Common styles */
+=======
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
 .Button {
   font-family: 'IBM Plex Sans', sans-serif;
   border: 0px;
@@ -254,12 +343,17 @@ p {
 }
 
 .ContactButton {
+<<<<<<< HEAD
   /* Additional styles specific to Contact button */
   margin-right: 10px;
   /* Adjust this margin to create space between buttons */
+=======
+  margin-right: 10px; 
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
 }
 
 .ButtonContainer {
+<<<<<<< HEAD
   text-align: center;
   padding-bottom: 60px;
   align-items: center;
@@ -269,6 +363,16 @@ p {
 .animated-text {
   animation: slideIn 2s ease-in-out;
   /* Adjust animation duration and easing */
+=======
+  text-align:center;
+  margin-left:60px;
+  margin-right:60px;
+  
+}
+
+.animated-text {
+  animation: slideIn 2s ease-in-out;  
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
 }
 
 .wave-text {
@@ -300,6 +404,7 @@ p {
 
 
 .larger-icon {
+<<<<<<< HEAD
   font-size: 30px;
   margin-right: 30px;
 }
@@ -308,6 +413,12 @@ p {
 
 
 
+=======
+  font-size: 30px;  
+  margin-right: 30px;
+}
+ 
+>>>>>>> db3d7f087165d863a7dfa56737f46e56d0dda346
 .link:hover {
   color: rgb(119, 36, 93);
 }
@@ -316,7 +427,7 @@ p {
   font-weight: bold;
 }
 
-/* CSS styles for the drink and hobby buttons */
+
 #drinkButton,
 #hobbyButton {
   text-decoration: underline;
@@ -324,7 +435,7 @@ p {
   cursor: pointer;
 }
 
-/* Change color on hover */
+
 #drinkButton:hover,
 #hobbyButton:hover {
   color: rgb(103, 50, 119);
