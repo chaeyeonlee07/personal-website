@@ -4,6 +4,7 @@ import Collapsible from 'react-collapsible';
 import hp1 from '../images/hp1.png';
 import hp2 from '../images/hp2.jpg';
 import bm from '../images/bookmark.png';
+import pomodoro from '../images/pomodoro.png';
 
 function Projects() {
     const navigate = useNavigate();
@@ -36,6 +37,23 @@ function Projects() {
                     </div>
                 </div>
 
+                <div className="project-box">
+                    <div class="hover_img">
+                        <a href="https://github.com/chaeyeonlee07/flutter-experimentation">Pomodoro<span><img src={pomodoro} alt="image" height="100" /></span></a>
+                    </div>
+
+                    <div className="project-inner-box">
+
+                        <div className="project-content">
+
+                            <ul className="project-points">
+                                <li>Framework: Flutter, Language: Dart</li>
+                                <li>Motivation: I wanted to learn how to use Flutter, and this is the best first app I made using it!</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
 
                 <div className="project-box">
                     <div class="hover_img">
@@ -54,6 +72,8 @@ function Projects() {
 
                     </div>
                 </div>
+
+
 
 
 
