@@ -5,7 +5,7 @@ import hp1 from '../images/hp1.png';
 import hp2 from '../images/hp2.jpg';
 import bm from '../images/bookmark.png';
 import pomodoro from '../images/pomodoro.png';
-
+import nature from '../images/nature.png';
 function Projects() {
     const navigate = useNavigate();
     return (
@@ -49,6 +49,26 @@ function Projects() {
                             <ul className="project-points">
                                 <li>Framework: Flutter, Language: Dart</li>
                                 <li>Motivation: I wanted to learn how to use Flutter, and this is the best first app I made using it!</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div className="project-box">
+                    <div class="hover_img">
+                        <a href="https://github.com/chaeyeonlee07/impact-fellowship/tree/main">Nature Quest<span><img src={nature} alt="image" height="100" /></span></a>
+                    </div>
+
+                    <div className="project-inner-box">
+
+                        <div className="project-content">
+
+                            <ul className="project-points">
+                                <li>Framework: Flutter, Language: Dart</li>
+                                <li>How can we bridge the gap between nature and people? Nature Quest retrieves nearby species based on the user's location, and the users can collect points and challenge their friends to also spot wonderful species! Through interactive game, we hope to bring people out in nature and explore it!</li>
+                                <li>Demo video is on Github!</li>
                             </ul>
                         </div>
 
