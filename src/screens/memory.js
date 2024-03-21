@@ -82,7 +82,8 @@ function Memory() {
 
                     <p>
                         There are numerous reasons to thank you – for teaching me the essence of unconditional love, the weight of responsibility, the boundless affection another being can provide.
-                        Thank you for consistently being by my side, my unwavering companion through every high and low. I can tell you with all confidence that every moment with you had been the happiest highlight in my life. I hope you feel the same! Words can't express how much strength, hope, and love you've instilled in me. You're irreplaceable. I hope you grace my dreams occasionally, embracing me warmly, joining me to a cafe, and taking a nap together.
+                        Thank you for consistently being by my side, my unwavering companion through every high and low.
+                        I hope you grace my dreams occasionally, embracing me warmly, joining me to a cafe, and taking a nap together.
                         <br></br>
                         ૮ฅ・ﻌ・აฅ
                     </p>
