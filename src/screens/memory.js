@@ -23,17 +23,21 @@ function Memory() {
         <body>
             <div className="memory-container">
                 <p className="memory-intro">
-                    Memories fade, and feelings dissipate with the passage of time. Yet, I hope to hold on to my cherished memories, allowing them to endure through the ages, serving as a wellspring of courage, happiness, and strength as I journey through life. These memories constitute the very essence of my being today, shaping who I have become. I yearn to express gratitude, to hold them close in remembrance, and to let my love for them transcend distance, reaching wherever they may reside.
+                    Memories fade, and feelings dissipate with the passage of time.
+                    Yet, I hope to hold on to my cherished memories, allowing them to endure through the ages, serving as a wellspring of courage, happiness, and strength as I journey through life.
+                    {/* These memories constitute the very essence of my being today, shaping who I have become. I yearn to express gratitude, to hold them close in remembrance, and to let my love for them transcend distance, reaching wherever they may reside. */}
                 </p>
                 <h1 className="memory-title">In memory of my Bestfriend, Beuni˚🐾˖°</h1>
-                <p>Beuni, my best friend, had been by my side since I was 11 years old. I made this page in memory of him on December 24, 2023.</p>
+                <p>
+                    {/* Beuni, my best friend, had been by my side since I was 11 years old. */}
+                    I made this page in memory of him on December 24, 2023.</p>
                 <div className="image-gallery">
                     {imagePaths.map((path, index) => (
                         <img key={index} src={path} className="gallery-image" alt={`Image ${index + 1}`} />
                     ))}
                 </div>
 
-                <Collapsible trigger="What Beuni Liked ૮₍´｡ᵔ ꈊ ᵔ｡`₎ა">
+                {/* <Collapsible trigger="What Beuni Liked ૮₍´｡ᵔ ꈊ ᵔ｡`₎ა">
 
                     <p>
 
@@ -47,15 +51,15 @@ function Memory() {
                             <li>You used to love sleeping on my lap when I was studying!✧੯•́໒꒱ My legs would go numb after I had you on my lap for 15 minutes because you were 10kg or 22lbs.</li>
                         </ul>
                     </p>
-                </Collapsible>
+                </Collapsible> */}
 
                 <Collapsible trigger="What I Wish I Had Done for You ૮ ◞ ﻌ ◟ ა">
                     <p>
                         <ul>
                             <li>You used to bark   ૮ ˙Ⱉ˙ ა   at every single dog, which prevented us from spending more time outside than I wanted. I wish I had given you more opportunities to meet other dogs when you were young. I regret not making more friends for you.</li>
-                            <li>I wish I had been with you when you left this earth. I can't fathom how much you missed us in your last moment. I'm sorry.</li>
-                            <li>I wish I hadn't left you to study abroad. I can't forget your eyes full of sadness when you realized both Sally and I were leaving and that you wouldn't see us for 6 months.</li>
-                            <li>I wish I had traveled more with you.</li>
+                            {/* <li>I wish I had been with you when you left this earth. I can't fathom how much you missed us in your last moment. I'm sorry.</li> */}
+                            <li>I sometimes wish I hadn't left you to study abroad. I can't forget your eyes full of sadness when you realized both Sally and I were leaving and that you wouldn't see us for a year.</li>
+                            {/* <li>I wish I had traveled more with you.</li> */}
                         </ul>
                     </p>
                 </Collapsible>
@@ -65,21 +69,19 @@ function Memory() {
                         <ul>
                             <li>Going on a cafe date. Since you bark at any dogs you see, I had to find a cafe that is not on the first floor!! We
                                 finally found one together and we would go there once every three days to drink lavender latte! The cafe owner was so
-                                kind to always give you sweet potato sticks, and you would chew on them while I was leetcoding!!
+                                kind to always give you sweet potato sticks!!
                             </li>
-                            <li>You were up exactly at 6 am ૮ – ﻌ–ა , scratch on our door to get your snack in the morning! You were such a diligent dog!!</li>
-                            <li>When the weather is good, Sally and I would set up a tent outside and all three of us would dive into the tent and read books / watch youtube together! Do you remember?</li>
-                            <li>As weird as it sounds, I loved the smell of your paw and bellies!</li>
-                            <li>I loved just going on a walk with you. Sometimes, being at home is not the happiest moment. You gave me a company in any weather to go on a walk together.</li>
+                            <li>You were up exactly at 6 am ૮ – ﻌ–ა , scratch on our door to get your snack in the morning.</li>
+                            <li>When the weather is good, Sally and I would set up a tent outside and all three of us would dive into the tent and read books / watch youtube together! </li>
+
+                            {/* <li>I loved just going on a walk with you. Sometimes, being at home is not the happiest moment. You gave me a company in any weather to go on a walk together.</li> */}
                         </ul>
                     </p></Collapsible>
 
                 <Collapsible trigger="My last word for you ૮꒰˵• ﻌ •˵꒱ა">
 
                     <p>
-                        There are numerous reasons to thank you – for teaching me the essence of unconditional love, the weight of responsibility, the boundless affection another being can provide, and the immense strength, courage, and warmth I receive from my loved ones.
-                        To be frank, I wouldn't have believed that you left this earth – it's quite surreal for me. The day I heard you left was so miserable, but nothing changed around me since I was still not back home and was in California. I am still trying to process and accept this reality, although it is difficult. Honestly, I don't know the best way to process this sadness and remember you, so I am trying hard to keep memories of you alive. I am scared that one day I won't be able to recall your traits, what you liked, or my fondest memory with you as memories fade over time. Thus, I am doing my best to document you in all possible forms.
-
+                        There are numerous reasons to thank you – for teaching me the essence of unconditional love, the weight of responsibility, the boundless affection another being can provide.
                         Thank you for consistently being by my side, my unwavering companion through every high and low. I can tell you with all confidence that every moment with you had been the happiest highlight in my life. I hope you feel the same! Words can't express how much strength, hope, and love you've instilled in me. You're irreplaceable. I hope you grace my dreams occasionally, embracing me warmly, joining me to a cafe, and taking a nap together.
                         <br></br>
                         ૮ฅ・ﻌ・აฅ
