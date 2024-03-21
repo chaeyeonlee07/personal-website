@@ -15,7 +15,7 @@ import beuni9 from '../images/beuni9.png';
 
 
 
-const imagePaths = [beuni1, beuni2, beuni3, beuni4, beuni5, beuni6, beuni8, beuni9];
+const imagePaths = [beuni1, beuni2, beuni3, beuni4];
 function Memory() {
     const navigate = useNavigate();
 
