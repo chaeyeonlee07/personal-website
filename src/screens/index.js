@@ -35,7 +35,6 @@ function Home() {
         <h1 class="wave-text">Welcome to my website</h1>
         <p>
           Hello! Nice to meet you!! I would love to welcome you to my 𓆝 𓆟 space 𓆝 𓆟 
-          </span>
           <br />
 
           I currently live in Berkeley𓇢𓆸, where I study Pure Mathematics and Computer Science!
