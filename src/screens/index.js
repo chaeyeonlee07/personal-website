@@ -34,12 +34,8 @@ function Home() {
       <div className="index_container">
         <h1 class="wave-text">Welcome to my website</h1>
         <p>
-          Hello! Nice to meet you!! I would love to welcome you to my 𓆝 𓆟 space 𓆝 𓆟 by taking your
-          order of my ‧₊˚ ⋅specialty drinks𓐐𓎩 ‧₊˚ ⋅ — would you like some{' '}
-          <span id="drinkButton" className="link play" onClick={updateDrink}>
-            {categories.drinks[drinkIndex]}
+          Hello! Nice to meet you!! I would love to welcome you to my 𓆝 𓆟 space 𓆝 𓆟 
           </span>
-          ?
           <br />
 
           I currently live in Berkeley𓇢𓆸, where I study Pure Mathematics and Computer Science!
